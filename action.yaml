@@ -1,0 +1,21 @@
+name: 'Order ID validator'
+description: 'Adds labels to issues based on the order ID'
+inputs:
+  owner:
+    description: 'The owner of the repository'
+    required: true
+  repo:
+    description: 'The name of the repository'
+    required: true
+  issue:
+    description: 'The number of the issue'
+    required: true
+  token:
+    description: 'The token to use to access the GitHub API'
+    required: true
+  orderApiToken:
+    description: 'The token to use to access the Order API'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
