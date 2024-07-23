@@ -1,2 +1,2 @@
 # mui-order-id-validation
-labeling issues based on keywords in
+labeling issues based on the order id provided in the issue body
