@@ -7,7 +7,7 @@ inputs:
   repo:
     description: 'The name of the repository'
     required: true
-  issue:
+  issue_number:
     description: 'The number of the issue'
     required: true
   token:
